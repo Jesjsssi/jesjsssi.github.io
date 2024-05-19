@@ -1,10 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import bookphileImg from "@/public/bookphile.png";
+import programmingImg from "@/public/programmingweb.png";
+import intermediateImg from "@/public/intermediate.png";
+import machineImg from "@/public/machine.png";
+import fundamnetal from "@/public/fundamental.png";
 
 export const links = [
   {
@@ -35,52 +36,63 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Secretary of Litbang Commision",
+    location: "Dewan Perwakilan Mahasiswa",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "As the team leader for Open Recruitment, I am responsible for the entire recruitment process, from planning and development to implementation and evaluation. I create meeting agendas, take minutes, and follow up on meeting results to ensure a smooth recruitment process. I also monitor and evaluate the implementation of Open Recruitment to track progress, identify potential problems, and implement corrective actions as needed.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Oct 2022 - Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Mobile Developer",
+    location: "Bangkit",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I participated in the Bangkit program, which ran for 4 months. Here I improved my skills in developing Android applications using the Kotlin language. In addition, I also learned how to apply machine learning to Android. Not only that, I also developed my English language skills through the Bangkit program.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Feb 2024 - June 2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "BookPhile",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This PHP-based book borrowing platform features book ratings, reviews, categorized browsing, and a simple checkout process.",
+    tags: ["PHP", "CSS", "HMTL", "Javascript", "MySql"],
+    imageUrl: bookphileImg,
+    urlTo: "https://github.com/Jesjsssi/BookPhile",
   },
   {
-    title: "rmtDev",
+    title: "MyStoryApp",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "The application that I worked on during Bangkit. Has the main feature of being able to post and view stories and display location.",
+    tags: ["Kotlin", "Json", "Cloud API", "Local database"],
+    imageUrl: intermediateImg,
+    urlTo: "https://github.com/Jesjsssi/MyStoryApp",
   },
   {
-    title: "Word Analytics",
+    title: "Cancer Detection App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "The application that I worked on during Bangkit. Using Kotlin programming language and utilizing the use of tensorflow.",
+    tags: ["Kotlin", "TensorFlow", "Camera Integrated", "Local database", "Cloud API"],
+    imageUrl: machineImg,
+    urlTo: "https://github.com/Jesjsssi/AplikasiDeteksiKanker",
+  },
+  {
+    title: "GithubApp",
+    description:
+      "The application that I worked on during Bangkit. Using Kotlin language and doing data transaction through API provided by Github.",
+    tags: ["Kotlin", "Cloud API", "Local Database"],
+    imageUrl: fundamnetal,
+    urlTo: "https://github.com/Jesjsssi/AplikasiGithub",
+  },
+  {
+    title: "Basic Web Programming",
+    description:
+      "This is a project that I worked on during the Dicoding course. Using HTML, CSS, and JavaScript programming languages",
+    tags: ["HTML", "CSS", "Javascript"],
+    imageUrl: programmingImg,
+    urlTo: "https://github.com/Jesjsssi/Frieren-PemprogramanWebDasar",
   },
 ] as const;
 
@@ -88,20 +100,20 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
+  "Kotlin",
   "React",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Figma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "Android Studio",
+  "Flutter",
+  "Dart",
   "Python",
-  "Django",
-  "Framer Motion",
+  "TypeScript",
+  "Github",
+  "Bootstrap",
+  "Visual Studio Code",
 ] as const;
