@@ -6,6 +6,8 @@ import programmingImg from "@/public/programmingweb.png";
 import intermediateImg from "@/public/intermediate.png";
 import machineImg from "@/public/machine.png";
 import fundamnetal from "@/public/fundamental.png";
+import furniscan from "@/public/furniscan.png";
+import bookshelfImg from "@/public/bookshelf.png";
 
 export const links = [
   {
@@ -55,12 +57,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "BookPhile",
+    title: "FurniScan",
     description:
-      "This PHP-based book borrowing platform features book ratings, reviews, categorized browsing, and a simple checkout process.",
-    tags: ["PHP", "CSS", "HMTL", "Javascript", "MySql"],
-    imageUrl: bookphileImg,
-    urlTo: "https://github.com/Jesjsssi/BookPhile",
+      "The application that I worked on during Bangkit. Has the main feature of being able to scan product furniture and see detail information.",
+    tags: ["Kotlin", "TensorFlow", "Camera Integrated", "Local database", "Cloud API"],
+    imageUrl: furniscan,
+    urlTo: "https://github.com/FurniScan-C241-PS170/FurniScanApp",
+  },
+  {
+    title: "BookShelf Apps",
+    description:
+      "A website based on HTML, CSS, and JavaScript where users can add and categorize books they have read and books they want to read.",
+    tags: ["CSS", "HMTL", "Javascript"],
+    imageUrl: bookshelfImg,
+    urlTo: "https://github.com/Jesjsssi/Bookshelf-Apps",
   },
   {
     title: "MyStoryApp",
@@ -71,12 +81,30 @@ export const projectsData = [
     urlTo: "https://github.com/Jesjsssi/MyStoryApp",
   },
   {
+    title: "BookPhile",
+    description:
+      "This PHP-based book borrowing platform features book ratings, reviews, categorized browsing, and a simple checkout process.",
+    tags: ["PHP", "CSS", "HMTL", "Javascript", "MySql"],
+    imageUrl: bookphileImg,
+    urlTo: "https://github.com/Jesjsssi/BookPhile",
+  },
+  
+  {
     title: "Cancer Detection App",
     description:
       "The application that I worked on during Bangkit. Using Kotlin programming language and utilizing the use of tensorflow.",
     tags: ["Kotlin", "TensorFlow", "Camera Integrated", "Local database", "Cloud API"],
     imageUrl: machineImg,
     urlTo: "https://github.com/Jesjsssi/AplikasiDeteksiKanker",
+  },
+  
+  {
+    title: "Basic Web Programming",
+    description:
+      "This is a project that I worked on during the Dicoding course. Using HTML, CSS, and JavaScript programming languages",
+    tags: ["HTML", "CSS", "Javascript"],
+    imageUrl: programmingImg,
+    urlTo: "https://github.com/Jesjsssi/Frieren-PemprogramanWebDasar",
   },
   {
     title: "GithubApp",
@@ -85,14 +113,6 @@ export const projectsData = [
     tags: ["Kotlin", "Cloud API", "Local Database"],
     imageUrl: fundamnetal,
     urlTo: "https://github.com/Jesjsssi/AplikasiGithub",
-  },
-  {
-    title: "Basic Web Programming",
-    description:
-      "This is a project that I worked on during the Dicoding course. Using HTML, CSS, and JavaScript programming languages",
-    tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: programmingImg,
-    urlTo: "https://github.com/Jesjsssi/Frieren-PemprogramanWebDasar",
   },
 ] as const;
 
