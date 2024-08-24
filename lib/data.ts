@@ -8,6 +8,9 @@ import machineImg from "@/public/machine.png";
 import fundamnetal from "@/public/fundamental.png";
 import furniscan from "@/public/furniscan.png";
 import bookshelfImg from "@/public/bookshelf.png";
+import notesReactImg from "@/public/notesReact.png";
+import notesAppImg from "@/public/notesFront.png";
+
 
 export const links = [
   {
@@ -53,6 +56,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Feb 2024 - June 2024",
   },
+  {
+    title: "Web Developer",
+    location: "Telkom Semarang",
+    description:
+      "Interned for 2 months, working on an LMS (Learning Management System) website using the CodeIgniter 3 framework with PHP as the programming language. The website allows agents to access provided materials and includes a quiz feature.",
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2024 - August 2024",
+  },
 ] as const;
 
 export const projectsData = [
@@ -70,7 +81,7 @@ export const projectsData = [
       "A website based on HTML, CSS, and JavaScript where users can add and categorize books they have read and books they want to read.",
     tags: ["CSS", "HMTL", "Javascript"],
     imageUrl: bookshelfImg,
-    urlTo: "https://github.com/Jesjsssi/Bookshelf-Apps",
+    urlTo: "https://jesjsssi.github.io/Bookshelf-Apps/",
   },
   {
     title: "MyStoryApp",
@@ -104,7 +115,7 @@ export const projectsData = [
       "This is a project that I worked on during the Dicoding course. Using HTML, CSS, and JavaScript programming languages",
     tags: ["HTML", "CSS", "Javascript"],
     imageUrl: programmingImg,
-    urlTo: "https://github.com/Jesjsssi/Frieren-PemprogramanWebDasar",
+    urlTo: "https://jesjsssi.github.io/Frieren-PemprogramanWebDasar/",
   },
   {
     title: "GithubApp",
@@ -114,6 +125,23 @@ export const projectsData = [
     imageUrl: fundamnetal,
     urlTo: "https://github.com/Jesjsssi/AplikasiGithub",
   },
+   {
+    title: "Notes App Frontend",
+    description:
+      "Create a website using Node.js and implement Webpack, where the website allows adding and deleting notes",
+    tags: ["Node", "Webpack", "API"],
+    imageUrl: notesAppImg,
+    urlTo: "https://jesjsssi.github.io/notes-app/",
+  },
+   {
+    title: "Notes App React",
+    description:
+      "A notes website built using the Vite.js and React frameworks, where users can add, delete, and archive notes",
+    tags: ["React", "Vite.js", "Local Database"],
+    imageUrl: notesReactImg,
+    urlTo: "https://jesjsssi.github.io/React-NotesApp/",
+  },
+  
 ] as const;
 
 export const skillsData = [
@@ -136,4 +164,5 @@ export const skillsData = [
   "Github",
   "Bootstrap",
   "Visual Studio Code",
+  "PHP",
 ] as const;
