@@ -10,6 +10,7 @@ import furniscan from "@/public/furniscan.png";
 import bookshelfImg from "@/public/bookshelf.png";
 import notesReactImg from "@/public/notesReact.png";
 import notesAppImg from "@/public/notesFront.png";
+import telkomImg from "@/public/telkom.png";
 
 
 export const links = [
@@ -62,7 +63,15 @@ export const experiencesData = [
     description:
       "Interned for 2 months, working on an LMS (Learning Management System) website using the CodeIgniter 3 framework with PHP as the programming language. The website allows agents to access provided materials and includes a quiz feature.",
     icon: React.createElement(CgWorkAlt),
-    date: "July 2024 - August 2024",
+    date: "July 2024 - Sept 2024",
+  },
+  {
+    title: "Web Developer",
+    location: "Diskominfo Semarang",
+    description:
+      "Interned for 1 months, working on a website for the Semarang City Government using the CodeIgniter 3 framework with PHP as the programming language. The website is used to provide information about the city of Semarang.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Sept 2024 - Okt 2024",
   },
 ] as const;
 
@@ -140,6 +149,14 @@ export const projectsData = [
     tags: ["React", "Vite.js", "Local Database"],
     imageUrl: notesReactImg,
     urlTo: "https://jesjsssi.github.io/React-NotesApp/",
+  },
+   {
+    title: "Telkom Agent",
+    description:
+      "A website that I worked on during my internship at Telkom Semarang. Using the CodeIgniter 3 framework with PHP as the programming language",
+    tags: ["PHP", "CodeIgniter 3", "MySql"],
+    imageUrl: telkomImg,
+    urlTo: "https://github.com/LMS-Learning-Management-System/telkom-agent-ci3",
   },
   
 ] as const;
