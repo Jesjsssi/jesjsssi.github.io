@@ -24,7 +24,7 @@ export default function About() {
           by a fervent passion for mobile and website development. My enthusiasm
           for creating engaging and impactful applications and websites has led
           me to meticulously hone my skills in programming languages such as
-          Kotlin, React, HTML, and CSS. I am a perpetual learner, constantly
+          Kotlin, Laravel, HTML, and CSS. I am a perpetual learner, constantly
           seeking opportunities to expand my knowledge and explore new
           technologies.
         </span>

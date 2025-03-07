@@ -73,6 +73,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Sept 2024 - Okt 2024",
   },
+   {
+    title: "Web Developer",
+    location: "Firstudio Semarang",
+    description:
+      "Contract worker in the position of a web developer using the Laravel framework.",
+    icon: React.createElement(CgWorkAlt),
+    date: "February 2025 - Present",
+  },
 ] as const;
 
 export const projectsData = [
@@ -166,6 +174,8 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "Kotlin",
+  "Laravel",
+  "CodeIgniter 3",
   "React",
   "Next.js",
   "Node.js",

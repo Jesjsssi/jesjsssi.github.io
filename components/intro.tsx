@@ -65,7 +65,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Jesica.</span>  I'm a Mobile and Web Developer with{" "}
         <span className="font-bold"> 2 years </span> of experience.  I enjoy building{" "}
         <span className="italic"> sites and apps. </span> My focus is{" "}
-        <span className="font-bold">React and Kotlin</span>.
+        <span className="font-bold">Laravel and Kotlin</span>.
       </motion.h1>
 
       <motion.div
